@@ -154,10 +154,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 speak = "" + temp + "";
             }
             if (op.contains("%")) {
-                speak = speak + " percent";
+                speak = speak + "percent";
             }
 
-            tts.speak(speak.trim(), TextToSpeech.QUEUE_ADD, null);
+            tts.speak(speak.trim(), TextToSpeech.QUEUE_FLUSH, null);
 
         } catch (Exception e) {
             e.printStackTrace();
