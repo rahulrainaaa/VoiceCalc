@@ -126,13 +126,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             } else if (op.contains("subtracts")) {
                 c = a - b;
                 op = "-";
-            } else if (op.contains("multiply")) {
+            } else if (op.contains("multip")) {
                 c = a * b;
                 op = "x";
             } else if (op.contains("into")) {
                 c = a * b;
                 op = "x";
-            } else if (op.contains("divide")) {
+            } else if (op.contains("divid")) {
                 c = a / b;
                 op = "/";
             } else if (op.contains("of")) {
